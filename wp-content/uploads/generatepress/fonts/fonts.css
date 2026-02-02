@@ -1,0 +1,96 @@
+:root {
+--gp-font--inter: "Inter";
+--gp-font--poppins: "Poppins";
+}
+
+@font-face {
+	font-display: auto;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 100 900;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0I5nvwU.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: italic;
+	font-weight: 700;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: italic;
+	font-weight: 600;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 800;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: italic;
+	font-weight: 800;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiDyp8kv8JHgFVrJJLm111VF9eO.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 900;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: italic;
+	font-weight: 900;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiDyp8kv8JHgFVrJJLm81xVF9eO.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: italic;
+	font-weight: 500;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Poppins";
+	font-style: italic;
+	font-weight: 400;
+	src: url('https://cervarese-online.ielloo.it/wp-content/uploads/generatepress/fonts/poppins/pxiGyp8kv8JHgFVrJJLucHtA.woff2') format('woff2');
+}

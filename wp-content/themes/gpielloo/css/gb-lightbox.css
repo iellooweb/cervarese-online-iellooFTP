@@ -1,0 +1,88 @@
+/* Overlay principale */
+.gb-lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgb(0, 0, 0); /*SFONDO A PIACERE*/
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gb-lightbox-overlay.active {
+  display: flex;
+  opacity: 1;
+}
+
+/* Contenitore immagine */
+.gb-lightbox-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0rem;
+  touch-action: pan-y;
+}
+
+.gb-lightbox-content img {
+  max-width: 90%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Barra comandi in alto o in basso */
+.gb-lightbox-controls {
+  position: absolute;
+  top: auto; /* usa bottom:1rem per spostarla sotto */
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 10000;
+}
+
+/* Pulsanti cambia in base alle necessità */
+.gb-lightbox-button {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background 0.2s ease;
+}
+.gb-lightbox-button:hover,
+.gb-lightbox-button:focus {
+  background: rgb(0, 0, 0);/*POSSIVILE CAMBIARE COLORE*/
+}
+
+/* Pulsante chiudi */
+.gb-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #000;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.gb-lightbox-close:hover,
+.gb-lightbox-close:focus {
+  color: rgb(255, 255, 255);
+  outline: none;
+  background: rgb(0, 0, 0);/*POSSIVILE CAMBIARE COLORE*/
+}
+/* Rende chiaro che le immagini sono cliccabili */
+.wp-block-gallery a, .wp-block-image a {
+    cursor: zoom-in;
+}
