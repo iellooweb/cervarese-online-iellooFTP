@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cervarese Online — Il tuo sito web a costo zero</title>
+    <style>
+        :root{
+            --accent:#0b6cf5;
+            --muted:#6b7280;
+            --bg:#f7fafc;
+            --card:#ffffff;
+            --radius:12px;
+            --max:1100px;
+            font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            color:#0f1724;
+        }
+        *{box-sizing:border-box}
+        body{margin:0;background:var(--bg);line-height:1.45}
+        .container{max-width:var(--max);margin:32px auto;padding:16px}
+        header.hero{
+            display:grid;
+            gap:18px;
+            align-items:center;
+            grid-template-columns:1fr;
+            background:linear-gradient(180deg,#fff 0%, #f3f8ff 100%);
+            padding:36px;
+            border-radius:var(--radius);
+            box-shadow:0 6px 20px rgba(11,108,245,0.06);
+        }
+        .hero-inner{display:flex;gap:18px;align-items:center;flex-direction:column}
+        .title{font-size:1.4rem;font-weight:700;margin:0}
+        .subtitle{color:var(--muted);margin:0 0 8px 0}
+        .hero-ctas{display:flex;gap:10px;flex-wrap:wrap}
+        .btn{padding:10px 14px;border-radius:10px;border:1px solid transparent;cursor:pointer;font-weight:600}
+        .btn-primary{background:var(--accent);color:white}
+        .btn-secondary{background:transparent;color:var(--accent);border-color:rgba(11,108,245,0.12)}
+        nav.quick{display:flex;gap:12px;flex-wrap:wrap}
+        .grid{display:grid;gap:18px;margin-top:22px}
+        @media(min-width:820px){
+            header.hero{grid-template-columns:1fr 420px}
+            .hero-inner{align-items:flex-start}
+            .title{font-size:1.6rem}
+        }
+
+        /* Cards and sections */
+        .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(10,20,50,0.04)}
+        .row{display:grid;gap:16px}
+        .benefits{display:grid;grid-template-columns:1fr;gap:12px}
+        @media(min-width:720px){ .benefits{grid-template-columns:repeat(2,1fr)} }
+        .benefit{display:flex;gap:12px;align-items:flex-start}
+        .icon{width:44px;height:44px;border-radius:10px;background:linear-gradient(180deg,#eef6ff,#dbefff);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700}
+        .how{display:grid;gap:12px}
+        .options{display:flex;gap:12px;flex-direction:column}
+        @media(min-width:720px){ .options{flex-direction:row} }
+        .option{flex:1;padding:14px;border-radius:10px;border:1px dashed rgba(15,23,36,0.06);background:#fff}
+        .faq .q{cursor:pointer;padding:12px;border-radius:8px;display:flex;justify-content:space-between;align-items:center}
+        .faq .a{padding:10px 12px 0 12px;color:var(--muted)}
+        footer{margin-top:18px;padding:20px;border-radius:10px;background:#fff;text-align:center;color:var(--muted);font-size:0.95rem}
+        a{color:inherit;text-decoration:none}
+        small{color:var(--muted)}
+        /* utility */
+        .muted{color:var(--muted)}
+        .center{display:flex;align-items:center;justify-content:center}
+        .pill{display:inline-block;padding:6px 10px;background:#eef2ff;color:var(--accent);border-radius:999px;font-weight:600;font-size:0.86rem}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <div class="hero-inner">
+                <div class="pill">Gratuito · Per Cervarese</div>
+                <h1 class="title">Il tuo sito web a costo zero per dare voce alle eccellenze di Cervarese.</h1>
+                <p class="subtitle">Un'iniziativa di iClloo dedicata ad attività commerciali, agricole, produttive e associazioni del nostro territorio.</p>
+                <div class="hero-ctas">
+                    <a class="btn btn-primary" href="#form" role="button">Richiedi il sito Online (Più semplice e veloce)</a>
+                    <a class="btn btn-secondary" href="modulo.pdf" download role="button">Scarica la Guida e il Modulo PDF</a>
+                </div>
+                <nav class="quick muted" aria-label="Sezioni rapide">
+                    <a href="#vantaggi">Perché aderire</a>
+                    <a href="#come">Come richiedere</a>
+                    <a href="#requisiti">Requisiti</a>
+                    <a href="#faq">FAQ</a>
+                </nav>
+            </div>
+
+            <aside class="card">
+                <h3 style="margin:0 0 8px 0">Rapido e senza pensieri</h3>
+                <p class="muted" style="margin:0 0 12px 0">Non hai foto o logo? Possiamo aiutarci con strumenti di Intelligenza Artificiale per creare contenuti visivi.</p>
+                <ul class="muted" style="margin:0;padding-left:18px">
+                    <li>Sempre gratuito: nessun costo di attivazione o gestione</li>
+                    <li>Pubblicazione soggetta a verifica tecnica</li>
+                </ul>
+            </aside>
+        </header>
+
+        <main class="grid" aria-live="polite">
+            <section id="vantaggi" class="card">
+                <h2 style="margin-top:0">I Vantaggi: Perché aderire?</h2>
+                <div class="benefits">
+                    <div class="benefit">
+                        <div class="icon">V</div>
+                        <div>
+                            <strong>Visibilità Professionale</strong>
+                            <div class="muted">Uno spazio dedicato per farti conoscere online.</div>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="icon">+</div>
+                        <div>
+                            <strong>Anche se hai già un sito</strong>
+                            <div class="muted">Un canale in più per promuovere la tua attività.</div>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="icon">AI</div>
+                        <div>
+                            <strong>Senza pensieri</strong>
+                            <div class="muted">Se non hai foto o loghi, ci pensiamo noi con l'aiuto dell'Intelligenza Artificiale.</div>
+                        </div>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="icon">€0</div>
+                        <div>
+                            <strong>Sempre Gratuito</strong>
+                            <div class="muted">Nessun costo di attivazione o gestione.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="come" class="card how">
+                <h2 style="margin-top:0">Come richiedere il tuo mini-sito</h2>
+                <p class="muted">Scegli la modalità più comoda: online dal tuo smartphone o inviando il modulo via email.</p>
+
+                <div class="options">
+                    <div class="option">
+                        <h3 style="margin:0 0 8px 0">Opzione A: Modulo Online (Consigliata)</h3>
+                        <p class="muted" style="margin:0 0 10px 0">Compila i dati direttamente dal tuo smartphone o PC in pochi minuti.</p>
+                        <a class="btn btn-primary" href="#form" role="button">Vai al modulo online</a>
+                    </div>
+
+                    <div class="option">
+                        <h3 style="margin:0 0 8px 0">Opzione B: Via Email</h3>
+                        <p class="muted" style="margin:0 0 10px 0">Scarica e compila il modulo cartaceo in stampatello. Prepara il materiale (logo e fino a 6 foto).</p>
+                        <a class="btn btn-secondary" href="modulo.pdf" download role="button">Scarica il modulo PDF</a>
+                        <div style="margin-top:8px">
+                            <strong>Email per invio:</strong>
+                            <div><a href="mailto:cervareseonline@gmail.com">cervareseonline@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="requisiti" class="card">
+                <h2 style="margin-top:0">Requisiti di Ammissione</h2>
+                <p class="muted">L'iniziativa è riservata a:</p>
+                <ul>
+                    <li>Attività e associazioni con sede nel Comune di Cervarese Santa Croce.</li>
+                    <li>Titolari residenti a Cervarese S.C. con attività fuori comune (previa valutazione).</li>
+                </ul>
+            </section>
+
+            <section id="faq" class="card faq">
+                <h2 style="margin-top:0">Domande Frequenti (FAQ)</h2>
+
+                <div>
+                    <div class="q" data-open="false" tabindex="0" aria-expanded="false">
+                        <div><strong>Cosa devo preparare?</strong></div>
+                        <div class="muted">+</div>
+                    </div>
+                    <div class="a muted" hidden>
+                        Nome attività, indirizzo, orari, descrizione dei servizi e i tuoi contatti social/WhatsApp.
+                    </div>
+                </div>
+
+                <div>
+                    <div class="q" data-open="false" tabindex="0" aria-expanded="false">
+                        <div><strong>Posso personalizzare i colori o lo stile?</strong></div>
+                        <div class="muted">+</div>
+                    </div>
+                    <div class="a muted" hidden>
+                        No, il mini-sito viene offerto su un modello standard per garantire la gratuità e l'uniformità del portale.
+                    </div>
+                </div>
+
+                <div>
+                    <div class="q" data-open="false" tabindex="0" aria-expanded="false">
+                        <div><strong>Il sito sarà subito online?</strong></div>
+                        <div class="muted">+</div>
+                    </div>
+                    <div class="a muted" hidden>
+                        No, ogni richiesta è soggetta a verifiche tecniche. Riceverai una conferma via email una volta approvata la pubblicazione.
+                    </div>
+                </div>
+
+                <div>
+                    <div class="q" data-open="false" tabindex="0" aria-expanded="false">
+                        <div><strong>Posso cancellare la mia pagina in futuro?</strong></div>
+                        <div class="muted">+</div>
+                    </div>
+                    <div class="a muted" hidden>
+                        Certamente, l'adesione non è vincolante e puoi richiedere la rimozione in qualsiasi momento.
+                    </div>
+                </div>
+            </section>
+
+            <section id="form" class="card" aria-label="Modulo di richiesta">
+                <h2 style="margin-top:0">Richiedi il sito Online</h2>
+                <p class="muted">Compila i campi principali: bastano pochi minuti. (Questo è un esempio di modulo; collegalo al tuo backend o a Google Forms.)</p>
+                <form onsubmit="alert('Invio demo — collegare a un backend reale');return false" style="display:grid;gap:8px">
+                    <input name="nome" placeholder="Nome attività" required style="padding:10px;border-radius:8px;border:1px solid #e6e9ef" />
+                    <input name="indirizzo" placeholder="Indirizzo" style="padding:10px;border-radius:8px;border:1px solid #e6e9ef" />
+                    <input name="contatto" placeholder="Numero / WhatsApp" style="padding:10px;border-radius:8px;border:1px solid #e6e9ef" />
+                    <textarea name="descrizione" placeholder="Breve descrizione dei servizi" rows="4" style="padding:10px;border-radius:8px;border:1px solid #e6e9ef"></textarea>
+                    <div style="display:flex;gap:8px;flex-wrap:wrap">
+                        <button class="btn btn-primary" type="submit">Invia richiesta</button>
+                        <a class="btn btn-secondary" href="modulo.pdf" download>Scarica il modulo PDF</a>
+                    </div>
+                    <small class="muted">Prepara logo e fino a 6 foto da inviare se richiesto.</small>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            Cervarese Online è un progetto ideato e promosso da iClloo - Servizi web e digitali di Laura Bison.
+            <div style="margin-top:8px"><a href="mailto:info@ielloo.it">info@ielloo.it</a> | <a href="https://www.ielloo.it" target="_blank" rel="noopener">www.ielloo.it</a></div>
+        </footer>
+    </div>
+
+    <script>
+        // FAQ accordion
+        document.querySelectorAll('.faq .q').forEach(q=>{
+            q.addEventListener('click',toggle);
+            q.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' ') { e.preventDefault(); toggle.call(q); } });
+            function toggle(){
+                const open = this.getAttribute('data-open') === 'true';
+                this.setAttribute('data-open', String(!open));
+                this.setAttribute('aria-expanded', String(!open));
+                const answer = this.nextElementSibling;
+                if(!open){ answer.hidden = false; this.querySelector('.muted').textContent = '−'; }
+                else { answer.hidden = true; this.querySelector('.muted').textContent = '+'; }
+            }
+        });
+
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{
+            a.addEventListener('click',e=>{
+                const id = a.getAttribute('href');
+                if(id.length>1){
+                    e.preventDefault();
+                    const el = document.querySelector(id);
+                    if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+                }
+            });
+        });
+    </script>
+</body>
+</html>
