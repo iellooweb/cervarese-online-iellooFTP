@@ -1,5 +1,15 @@
+# Consenti l'indicizzazione di tutto il sito a tutti i crawler
 User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
+Allow: /
 
-Sitemap: https://cervarese-online.ielloo.it/sitemap_index.xml
+# Escludi eventuali file di log o cartelle di backup se presenti nella root
+Disallow: /error/
+Disallow: /cgi-bin/
+
+# Indica il percorso assoluto della tua Sitemap
+Sitemap: https://cervarese-online.it/sitemap-post-type-post.xml
+Sitemap: https://cervarese-online.it/sitemap-post-type-page.xml
+Sitemap: https://cervarese-online.it/sitemap-post-type-profilo.xml
+Sitemap: https://cervarese-online.it/sitemap-taxonomy-category.xml
+Sitemap: https://cervarese-online.it/sitemap-taxonomy-localita.xml
+Sitemap: https://cervarese-online.it/sitemap-taxonomy-settore.xml
