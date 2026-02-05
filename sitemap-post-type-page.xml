@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://cervarese-online.ielloo.it/wp-content/plugins/slim-seo/src/Sitemaps/style.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://cervarese-online.ielloo.it/dati-generali/</loc>
+		<lastmod>2026-01-31T09:19:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://cervarese-online.ielloo.it/iscrivi-la-tua-attivita/</loc>
+		<lastmod>2026-01-30T21:43:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://cervarese-online.ielloo.it/wp-content/uploads/2025/11/cervarese-online-logo-light.svg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://cervarese-online.ielloo.it/blog/</loc>
+		<lastmod>2026-01-15T20:31:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://cervarese-online.ielloo.it/mappa-del-sito/</loc>
+		<lastmod>2026-02-04T14:29:59+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://cervarese-online.ielloo.it/info-e-contatti/</loc>
+		<lastmod>2026-01-30T21:39:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://cervarese-online.ielloo.it/wp-content/uploads/2026/01/laurabison_ielloo.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://cervarese-online.ielloo.it/wp-content/uploads/2025/11/ielloo-logo-light-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://cervarese-online.ielloo.it/privacy-policy/</loc>
+		<lastmod>2026-01-31T09:24:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://cervarese-online.ielloo.it/</loc>
+		<lastmod>2026-02-02T09:48:22+00:00</lastmod>
+	</url>
+</urlset>
