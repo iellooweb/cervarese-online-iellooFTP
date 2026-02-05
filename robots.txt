@@ -7,9 +7,11 @@ Disallow: /error/
 Disallow: /cgi-bin/
 
 # Indica il percorso assoluto della tua Sitemap
-Sitemap: https://cervarese-online.it/sitemap-post-type-post.xml
-Sitemap: https://cervarese-online.it/sitemap-post-type-page.xml
-Sitemap: https://cervarese-online.it/sitemap-post-type-profilo.xml
-Sitemap: https://cervarese-online.it/sitemap-taxonomy-category.xml
-Sitemap: https://cervarese-online.it/sitemap-taxonomy-localita.xml
-Sitemap: https://cervarese-online.it/sitemap-taxonomy-settore.xml
+
+Sitemap: https://https://cervarese-online.it/sitemap-misc.xml
+Sitemap: https://https://cervarese-online.it/localita-sitemap.xml	
+Sitemap: https://https://cervarese-online.it/settore-sitemap.xml	
+Sitemap: https://https://cervarese-online.it/category-sitemap.xml	
+Sitemap: https://https://cervarese-online.it/profilo-sitemap.xml	
+Sitemap: https://https://cervarese-online.it/post-sitemap.xml	
+Sitemap: https://https://cervarese-online.it/page-sitemap.xml
